@@ -1,0 +1,68 @@
+*
+{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 35px;
+    background: #f2f2f2;
+}
+.container
+{
+    background: white;
+    width: 600px;
+    
+    padding: 30px;
+    margin: 60px auto 0;
+    border-top: 5px solid lightskyblue;
+    border-left: 10px solid purple;
+}
+.container h1
+{
+    font-style: italic;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inputname
+{
+    width: 90%;
+    font-size: 45px;
+    position: relative;
+    margin: 50px auto;
+}
+.center
+{
+    
+    text-align: center;
+}
+.countryname
+{
+    width: 90%;
+    font-size: 45px;
+    position: relative;
+    margin: 50px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+label[for="first name"]
+{
+    font-size: 40px;
+}
+.center {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: black;
+    border-radius: 4px;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none; 
+    text-align: center;
+}
+.center:hover {
+    background-color: violet;
+  }
+ 

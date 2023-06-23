@@ -1,0 +1,110 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+footer
+{
+    background-color: black;    
+    width: 100%;
+    position: fixed;
+
+    bottom: 0;
+
+
+
+}
+.socialmedia
+{
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+.Social
+{
+    display: flex;
+    justify-content: left;
+    
+}
+.Social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}   
+.Social a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}                
+.Social a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.Social a:hover i{
+color: azure;
+transition: 0.5s;
+}                                                                                                                                                                                      .footerbottom
+.footerbottom
+{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p
+{
+    color: white;
+}
+.designer
+{
+    opacity: 0.7s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+       font-weight: 100;
+       margin: 0px 5px;
+}
+.popup
+{
+    width: 400px;
+    background: blueviolet;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: blue;
+}
+.popup img
+{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 75px;
+    box-shadow: 0 2px 5px rgba( 0,0,0,0.2);
+}
+.popup h2
+{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button
+{
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px,0;
+    background: whitesmoke;
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
